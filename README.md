@@ -18,8 +18,6 @@ $$
 \end{aligned}
 $$
 
-where
-
 **where**
 
 | Symbol       | Meaning                                 |
