@@ -20,11 +20,16 @@ $$
 
 where
 
-- \(v\): longitudinal speed  
-- \(\delta\): front steering angle  
-- \(\theta\): tractor heading  
-- \(\psi\): trailer heading  
-- \(L_1, L_2\): wheelbase and hitch-to-trailer distance
+**where**
+
+| Symbol       | Meaning                                 |
+|--------------|-----------------------------------------|
+| $v$          | longitudinal speed                      |
+| $\delta$     | front steering angle                    |
+| $\theta$     | tractor heading                         |
+| $\psi$       | trailer heading                         |
+| $L_1, L_2$   | wheelbase and hitch-to-trailer distance |
+
 
 ---
 
