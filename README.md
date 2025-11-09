@@ -9,16 +9,17 @@ It simulates the geometric relationship between a tractor and its trailer during
 
 The vehicle is modeled using the following nonholonomic kinematics:
 
-\[
+$$
 \begin{aligned}
-\dot{x} &= v\cos\theta, \\
-\dot{y} &= v\sin\theta, \\
-\dot{\theta} &= \frac{v}{L_1}\tan\delta, \\
+\dot{x} &= v\cos\theta,\\
+\dot{y} &= v\sin\theta,\\
+\dot{\theta} &= \frac{v}{L_1}\tan\delta,\\
 \dot{\psi} &= \frac{v}{L_2}\sin(\theta - \psi)
 \end{aligned}
-\]
+$$
 
-where  
+where
+
 - \(v\): longitudinal speed  
 - \(\delta\): front steering angle  
 - \(\theta\): tractor heading  
@@ -31,6 +32,6 @@ where
 
 Below is a demonstration of the simulated **trailer pose evolution**:
 
-![Trailer Pose Simulation](assets/trailer_pose_simulation.gif)
+![Trailer Pose Simulation](assets/trailer_pose_with_paths.gif)
 
 *(Blue: tractor path, Red: trailer path)*
